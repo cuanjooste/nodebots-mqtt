@@ -1,0 +1,23 @@
+/* -- COLOR PALLET --
+
+light grey - #D1D1D1;
+red - #EF3E36
+blue - #85C7F2
+granite grey - #636363
+dark liver - #4C4C4C
+--- */
+
+
+
+html,body
+{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background-color: #D1D1D1;
+	font-family: 'Roboto', sans-serif;
+}

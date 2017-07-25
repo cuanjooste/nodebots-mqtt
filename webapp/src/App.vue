@@ -50,8 +50,8 @@
         created : function()
         {
             console.log("Vue instance created");
-            this.$mqtt.subscribe('results/controller/+/photoresistor/')
-            console.log(console_prefix + "Subscribed to results/+/photoresistor/")
+            this.$mqtt.subscribe('results/controller/+/photoresistor')
+            console.log(console_prefix + "Subscribed to results/+/photoresistor")
 
             this.$mqtt.on('message', (topic, message) => {
                 let topic_array = topic.split("/");

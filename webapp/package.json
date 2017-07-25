@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "vue": "^2.3.3",
-    "vue-mqtt": "0.0.4"
+    "vue-mqtt": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

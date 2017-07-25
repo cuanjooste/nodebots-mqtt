@@ -61,8 +61,8 @@ board.on("ready", () => {
         } 
         
         let resultMessagePayloadString = JSON.stringify(resultMessagePayload)
-        client.publish(resultBaseTopic + "photoresistor/", resultMessagePayloadString);
-        console.log(console_prefix + "Sent to " + resultBaseTopic + "photoresistor/ this message - " + resultMessagePayloadString);
+        client.publish(resultBaseTopic + "photoresistor", resultMessagePayloadString);
+        console.log(console_prefix + "Sent to " + resultBaseTopic + "photoresistor this message - " + resultMessagePayloadString);
     });
 });
 
